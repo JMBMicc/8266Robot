@@ -1,6 +1,6 @@
 // Device definition
 function Device(address) {
-  this.address = address;
+  this.address = "192.168.153.29";
 
   this.pinMode = function(pin, state) {
     $.ajaxq('queue', {
